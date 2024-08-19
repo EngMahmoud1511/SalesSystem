@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Saless));
             label1 = new Label();
             label2 = new Label();
             textBox2 = new TextBox();
@@ -264,7 +265,7 @@
             dataGridView1.Location = new Point(10, 88);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(535, 190);
+            dataGridView1.Size = new Size(480, 177);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -272,7 +273,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = SalesMangmentSystem._.Screenshot_2024_08_19_135241;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(835, 545);
             Controls.Add(dataGridView1);
             Controls.Add(textBox6);
